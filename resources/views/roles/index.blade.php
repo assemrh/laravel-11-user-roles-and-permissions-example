@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.crud')
 
 @section('content')
 <div class="row">
@@ -51,5 +51,5 @@
 
 {!! $roles->links('pagination::bootstrap-5') !!}
 
-<p class="text-center text-primary"><small>Tutorial by ItSolutionStuff.com</small></p>
+<p class="text-center text-primary"><small>Tutorial </small></p>
 @endsection
